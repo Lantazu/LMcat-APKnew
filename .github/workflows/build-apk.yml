@@ -1,0 +1,37 @@
+name: Build LMcat.Tabs Android APK
+
+on:
+  push:
+    branches: [ main, master ]
+  workflow_dispatch:
+
+jobs:
+  build-apk:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout project
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Set up Gradle 8.6
+        uses: gradle/actions/setup-gradle@v3
+        with:
+          gradle-version: '8.6'
+
+      - name: Build Android APK
+        run: gradle assembleDebug --no-daemon
+
+      - name: Rename APK
+        run: cp app/build/outputs/apk/debug/app-debug.apk LMcatTabs-Android.apk
+
+      - name: Upload LMcatTabs-Android.apk
+        uses: actions/upload-artifact@v4
+        with:
+          name: LMcatTabs-Android-APK
+          path: LMcatTabs-Android.apk
