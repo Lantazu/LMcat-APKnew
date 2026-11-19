@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.LMcatTabs" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:windowBackground">#181D30</item>
+        <item name="android:statusBarColor">#121626</item>
+        <item name="android:navigationBarColor">#121626</item>
+    </style>
+</resources>

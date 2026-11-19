@@ -1,0 +1,37 @@
+====================================================================
+  LMcat.Tabs (v11.0) — ANDROID GERCEK OVERLAY (.APK) PROJESI
+  (PC ile 1:1 Piksel Kedi & Oyuncaklar — WhatsApp/Ana Ekran Ustu!)
+====================================================================
+
+TELEFONUNUZA APK OLARAK KURMANIN 2 KOLAY YOLU:
+
+--------------------------------------------------------------------
+YOL 1 (EN KOLAY — ANDROID STUDIO KURMADAN, 1 DAKIKADA APK):
+--------------------------------------------------------------------
+1. GitHub.com'da ucretsiz yeni bir depo (New Repository) olusturun.
+2. Bu ZIP icindeki tum dosya ve klasorleri (ozellikle .github klasoru dahil)
+   o depoya yukleyin ("uploading an existing file" ile surukleyip birakin).
+3. Depoda ustteki "Actions" sekmesine tiklayin.
+4. "Build LMcat.Tabs Android APK" islemi otomatik calisir (~1 dakika surer).
+5. Bitisinde "LMcatTabs-Android-APK" yazisina tiklayip LMcatTabs-Android.apk
+   dosyasini indirin ve Android telefonunuza kurun!
+
+--------------------------------------------------------------------
+YOL 2 (ANDROID STUDIO ILE DOGRUDAN DERLEME):
+--------------------------------------------------------------------
+1. ZIP'i bir klasore cikarin.
+2. Android Studio -> Open -> cikardiginiz klasoru secin.
+3. Gradle senkronizasyonu bitince "Build -> Build APK(s)" veya USB ile
+   telefonunuza dogrudan "Run" deyin.
+
+--------------------------------------------------------------------
+TELEFONDA ILK ACILIS:
+--------------------------------------------------------------------
+- LMcat.Tabs uygulamasini acin (tacli beyaz piksel kedi logosuyla gorunur).
+- "Overlay Iznini Ver" dugmesine basip LMcat.Tabs icin
+  "Diger uygulamalarin uzerinde goster" iznini acin.
+- "Kediyi Ekranda Baslat" deyin:
+  * Alt gezinme cubugunda yurur ve kivrak dortnala kosar,
+  * Sol ve sag ekran duvarlarina tirmanip ust bildirim cubugu kenarina oturur,
+  * Parmaginizla tutup surukleyerek hafif parabolik firlatabilirsiniz,
+  * Ekranin bos yerlerine dokunuslariniz WhatsApp/Instagram'a engelsiz gecer!

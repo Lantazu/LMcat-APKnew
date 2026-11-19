@@ -1,0 +1,1 @@
+# LMcat.Tabs ProGuard rules
